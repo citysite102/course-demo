@@ -28,6 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             }
         }
         
+        // 這是衝突的東西
+        // 這是衝突的東西
+        
         // 讓 Local Notification 能在前景顯示
         UNUserNotificationCenter.current().delegate = self
 
