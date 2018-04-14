@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         notificationContent.badge = 1
         notificationContent.sound = UNNotificationSound.default()
         
+        ////測試ㄥ//////
         
         // 設置通知的圖片
 //        let imageURL: URL = Bundle.main.url(forResource: "demo",
